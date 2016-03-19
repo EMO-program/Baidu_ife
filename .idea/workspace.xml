@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e3f5bec-f195-4216-98bb-a34872050c94" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/CSS/task.css" afterPath="$PROJECT_DIR$/webroot/CSS/task.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/Task1_3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/Task1_1.html" afterPath="$PROJECT_DIR$/webroot/Task1_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/Task1_2.html" afterPath="$PROJECT_DIR$/webroot/Task1_2.html" />
     </list>
     <ignored path="Baidu_ife.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +29,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="task.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webroot/CSS/task.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6231405">
+            <state vertical-scroll-proportion="0.0">
               <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task1_3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webroot/Task1_3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.107143">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task1_1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webroot/Task1_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27556327">
+              <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -39,8 +62,8 @@
       <file leaf-file-name="Task1_2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webroot/Task1_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.821428">
-              <caret line="184" column="12" selection-start-line="184" selection-start-column="12" selection-end-line="184" selection-end-column="12" />
+            <state vertical-scroll-proportion="-8.821428">
+              <caret line="52" column="61" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#figure#0;n#div#0;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#figure#1;n#div#0;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -59,6 +82,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -70,9 +100,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webroot/Task1_1.html" />
-        <option value="$PROJECT_DIR$/webroot/Task1_2.html" />
         <option value="$PROJECT_DIR$/webroot/CSS/task.css" />
+        <option value="$PROJECT_DIR$/webroot/Task1_3.html" />
+        <option value="$PROJECT_DIR$/webroot/Task1_2.html" />
+        <option value="$PROJECT_DIR$/webroot/Task1_1.html" />
       </list>
     </option>
   </component>
@@ -186,6 +217,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -504,18 +536,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/Task1_1.html">
+    <entry file="file://$PROJECT_DIR$/webroot/CSS/task.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20970537">
-          <caret line="143" column="10" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/Task1_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.821428">
-          <caret line="184" column="12" selection-start-line="184" selection-start-column="12" selection-end-line="184" selection-end-column="12" />
+        <state vertical-scroll-proportion="-8.821428">
+          <caret line="52" column="61" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
           <folding>
             <element signature="n#style#0;n#span#0;n#figure#0;n#div#0;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#figure#1;n#div#0;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -531,10 +563,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/CSS/task.css">
+    <entry file="file://$PROJECT_DIR$/webroot/Task1_3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6231405">
-          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+        <state vertical-scroll-proportion="-6.107143">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/Task1_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27556327">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
           <folding />
         </state>
       </provider>
