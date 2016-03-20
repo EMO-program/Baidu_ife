@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e3f5bec-f195-4216-98bb-a34872050c94" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/Task1_2.html" afterPath="$PROJECT_DIR$/webroot/Task1_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/Task1_3.html" afterPath="$PROJECT_DIR$/webroot/Task1_3.html" />
     </list>
     <ignored path="Baidu_ife.iws" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="Task1_3.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webroot/Task1_3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5389948">
-              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.4731369">
+              <caret line="29" column="95" selection-start-line="29" selection-start-column="95" selection-end-line="29" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -563,8 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/Task1_3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5389948">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.4731369">
+          <caret line="29" column="95" selection-start-line="29" selection-start-column="95" selection-end-line="29" selection-end-column="95" />
           <folding />
         </state>
       </provider>
