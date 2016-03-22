@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task1_12</title>
+    <style type="text/css">
+        body{margin:0;padding:0;font-size:16px;color:#555;font-family: "microsoft yahei"}
+        section{margin:50px }
+        tr:nth-of-type(2n){background:#eee;padding:2px;}
+        tr:nth-of-type(2n+1){background:#ccc;padding:2px;}
+        tr:nth-child(-n+4){color:#880808}
+        th{background:#111;color:#fff;text-align:left;padding:2px;}
+        input{width:100px;margin-left:50px;transition: width  1s, height 2s, background-color 1s, transform 1s;}
+        input:focus {width:100px;margin-left:50px;border:solid 2px #0EADA7;transform: scaleX(2);}
+        #container{width:300px;height:120px;position:relative;overflow:hidden;
+        border: 5px solid rgba(0,0,0,0.5);}
+        #window{width: 300%;height: 200px;list-style-type:none;position: absolute;transition:left .8s ease-in;}
+        .window_1{width:300px;height:120px;position:absolute;left:0px;background:green;}
+        .window_2{width:300px;height:120px;position:absolute;left:300px;background:red;}
+        .window_3{width:300px;height:120px;position:absolute;left:600px;background:blue;}
+        #b1:hover{background:rgba(255,255,255,0.7);transform: scaleX(1);width:50px}
+        #b2:hover{background:rgba(255,255,255,0.7);transform: scaleX(1);width:50px}
+        #b3:hover{background:rgba(255,255,255,0.7);transform: scaleX(1);width:50px}
+        #boxx:hover{width:60px;height:20px;transform: rotate(180deg);;background:white;}
+        #boxx{transition: width 1s, height 1s, background-color 1s, transform 1s;width:20px;height:10px;background:black}
+        #window_1:checked~#window{left: 0;}
+        #window_1:checked~#boxx{width:20px;}
+        #window_1:checked~#b1{width:100px;}
+        #window_2:checked~#window{left: -100%;}
+        #window_2:checked~#boxx{width:40px;}
+        #window_3:checked~#window{left: -200%;}
+        #window_3:checked~#boxx{width:60px;}
+        #mark{ list-style:none;position:absolute;right:0px;bottom:-16px;}
+        #mark li{background:rgba(255,255,255,0.5);float:left;margin-left:2px;}
+        #mark li label{text-decoration:none;color:#fff;display:block;text-align:center;width:30px;height:30px;line-height:30px;cursor:pointer;transition: width 0.6s, height 1s, background-color 1s, transform 1s;}
+
+    </style>
+</head>
+<body>
+<section>
+
+    <br><br>
+    <table>
+    <tr>
+        <th>排名</th>
+        <th>网站</th>
+        <th>热度</th>
+    </tr>
+        <tr>
+            <td>1.</td>
+            <td>百度前端技术学院</td>
+            <td>13000</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>百度前端技术学院</td>
+            <td>12000</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>百度前端技术学院</td>
+            <td>11000</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>百度前端技术学院</td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>百度前端技术学院</td>
+            <td>9000</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>百度前端技术学院</td>
+            <td>8000</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>百度前端技术学院</td>
+            <td>7000</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>百度前端技术学院</td>
+            <td>6000</td>
+        </tr>
+        <tr>
+            <td>9.</td>
+            <td>百度前端技术学院</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>10.</td>
+            <td>百度前端技术学院</td>
+            <td>4000</td>
+        </tr>
+
+    </table>
+</section>
+<section>
+    <input type="text" name="" value=""/>
+</section>
+<br>
+<section>
+    <div id="container">
+
+
+        <input type="radio" id="window_1"  name="check" hidden checked="checked">
+        <input type="radio" id="window_2"  name="check" hidden >
+        <input type="radio" id="window_3"  name="check" hidden >
+        <div id="boxx"></div>
+        <div id="window">
+        <div class="window_1" ></div>
+        <div class="window_2" ></div>
+        <div class="window_3" ></div>
+        </div>
+        <ul id="mark">
+            <li><label for="window_1" id="b1">1</label></li>
+            <li><label for="window_2" id="b2">2</label></li>
+            <li><label for="window_3" id="b3">3</label></li>
+        </ul>
+
+    </div>
+
+</section>
+</div>
+</body>
+</html>
