@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TasK1_7</title>
+    <link rel="stylesheet" href="CSS/Task1_7style.css" type="text/css">
+</head>
+<body>
+<nav>
+<a href="#home"><div class="nav_left" title="开启新新世界"><img style="height:40px" src="image/imageTask1_7/NewWorld_big.jpg" alt="logo"/> <span>新世界</span> </div></a>
+   <div class="nav_right">
+  <ul>
+      <li ><a id="selected" href="#">首页</a></li>
+      <li><a href="#">最新活动</a></li>
+      <li><a href="#">项目介绍</a></li>
+      <li><a href="#">爱心社区</a></li>
+      <li><a href="#">关于我们</a></li>
+      <li><a href="#"><img src="image/imageTask1_7/login.jpg" alt="login"><span>登陆</span></a></li>
+  </ul>
+</div>
+</nav>
+<section id="section1">
+    <div class="content1" id="haha">
+        <ul>
+        <li>Time of new life</li>
+        <li>&nbsp;&nbsp;新时代，年轻的人们让我们一起<br>&nbsp;&nbsp;体验新生活,享受新生活</li>
+        <li><a href="#">开始体验</a></li>
+        </ul>
+    </div>
+</section>
+<section id="section2">
+    <ul>
+        <li><img src="image/imageTask1_7/logo1.jpg"><div>打造全新的世界观，让你更爱你的世界</div></li>
+        <li><img  onclick="this.style.transform='rotate(360deg)'" src="image/imageTask1_7/logo2.jpg"><div>丰富多彩的公益活动，发挥新世界的主人公意识</div></li>
+        <li><span id="ctrl1"></span><img id="img1" src="image/imageTask1_7/logo3.jpg"><div id="title1">时尚的新理念，超前体验未知的生活</div></li>
+        <li><img src="image/imageTask1_7/logo4.jpg"><div>完善培养机制，培养你全新的世界观</div></li>
+    </ul>
+</section>
+<section id="section3">
+    <div><img src="image/imageTask1_7/NewWorld_big.png"></div>
+    <div>关于新世界，你不知道的还有什么？</div>
+</section>
+<section id="section4">
+   <h2>查找新世界城市活动信息</h2>
+   <h3>每个城市都有不同的活动信息，请自主查询你所需要了解的城市</h3>
+     <div class="city_search">
+        <form action="" method="post">
+            <select name="country">
+                <option value="China" selected="selected" >中国</option>
+                <option value="America">美国</option>
+                <option value="UK" >英国</option>
+                <option value="Japan">日本</option>
+            </select>
+            <select name="province">
+                <option value="Beijing" >北京市</option>
+                <option value="HonKong">香港特别行政区</option>
+                <option value="Guangdong" selected="selected">广东省</option>
+            </select>
+            <select name="city">
+                <option value="beijing" >北京</option>
+                <option value="HonKong">香港</option>
+                <option value="guangzhou" selected="selected">广州</option>
+                <option value="shenzhen">深圳</option>
+            </select>
+            <button  class="search" type="submit" >搜&nbsp;&nbsp;索</button>    </form>
+    </div>
+ <!-- 用div代替select  <div class="city_search">
+        <form action="" method="post">
+            <div id="city">城市</div>
+            <ul id="option1">
+                <li>北京</li>
+                <li>广州</li>
+                <li>上海</li>
+                <li>香港</li>
+            </ul>
+        </form>
+        </div>-->
+</section>
+<section id="section5">
+    <ul class="album">
+        <li> <img src="image/imageTask1_7/picture3_1.jpg"><br><span  class="album_title">北京活动</span><br><span class="album_text">新社区大联盟</span> </li>
+        <li> <img src="image/imageTask1_7/picture3_2.jpg"><br><span  class="album_title">上海活动</span><br><span  class="album_text">夜上海新景观探索</span> </li>
+        <li> <img src="image/imageTask1_7/picture3_3.jpg"><br><span class="album_title">深圳活动</span><br><span  class="album_text">全新海岸线观点站</span> </li>
+        <li><img src="image/imageTask1_7/picture3_4.jpg"><br><span  class="album_title">香港活动</span><br><span class="album_text">奢侈消费大派送</span> </li>
+</ul>
+    </section>
+<section id="section6">
+    <input type="radio" id="check1"  name="check" hidden checked="checked">
+    <input type="radio" id="check2"  name="check" hidden >
+    <input type="radio" id="check3"  name="check" hidden >
+<div id="post_container">
+    <div class="post" id="post1"></div>
+    <div class="post" id="post2"></div>
+    <div class="post" id="post3"></div>
+</div>
+    <div class="content_container_background">
+        <img id="post_triangle"src="image/imageTask1_7/triangle.png">
+    </div>
+<div id="content_container">
+    <div class="post_content" id="post_content1">
+        <h2>新世界/<span>01</span></h2>
+        <p>新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界</p>
+        <a href="#">更多详情</a>
+    </div>
+    <div class="post_content" id="post_content2">
+        <h2>新世界/<span>02</span></h2>
+        <p>新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界</p>
+        <a href="#">更多详情</a>
+    </div>
+
+    <div class="post_content" id="post_content3">
+        <h2>新世界/<span>03</span></h2>
+        <p>新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界</p>
+        <a href="#">更多详情</a>
+    </div>
+
+</div>
+    <label for="check1" id="b1" class="check_button">B</label>
+    <label for="check2" id="b2" class="check_button">G</label>
+    <label for="check3" id="b3" class="check_button">Y</label>
+</section>
+<section id="section7">
+<div class="s7_block">
+    <div class="section7_bg" id="s7_bg1"></div>
+    <p class="s7_content1">新时代
+    <br>关于爱生活的我们</p>
+    <br>
+    <a class="s7_more s7_m1" href="#">查看更多</a>
+</div>
+    <div class="s7_block">
+        <div class="section7_bg" id="s7_bg2"></div>
+        <p class="s7_content2">新时代
+        <br>关于爱生活的我们</p>
+        <br>
+        <a class="s7_more s7_m2" href="#">查看更多</a>
+    </div>
+    <div class="s7_block s7_picture" >
+        <img src="image/imageTask1_7/triangle_left.png">
+    </div>
+</section>
+<section id="section8">
+<div class="s8_title">
+    <h2>成为我们的志愿者</h2>
+    <p>新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情那就不要犹豫，快加入我们，成为改变所有人生活的人</p>
+</div>
+    <div class="s8_input_more">
+<div class="s8_more">
+    <div class="s8_more_div">
+    <h3>新世界志愿者协议</h3>
+    <p>加入新世界志愿者的人员必须遵照中华人民共和国的相关法律法规，并且本着平等资源的原则....</p>
+    <a href="" class="s8_moreButton">more</a>
+        </div>
+    <div class="s8_more_div">
+    <h3>新世界志愿者协议</h3>
+    <p>加入新世界志愿者的人员必须遵照中华人民共和国的相关法律法规，并且本着平等资源的原则....</p>
+    <a href="" class="s8_moreButton">more</a>
+        </div>
+        <div class="s8_more_div">
+    <h3>更多条款</h3>
+            <a href="" class="s8_moreButton">more</a>
+            </div>
+</div>
+<div class="s8_form">
+    <form action="" method="post">
+       <input type="text" class="s8_input" placeholder="姓名：" name="name"><input type="text" class="s8_input" placeholder="年龄：" name="age"><br>
+        <input type="text" class="s8_input" placeholder="联系方式" name="contactWay"><input type="text" class="s8_input" placeholder="联系电话：" name="phone"><br>
+        <textarea class="s8_area" placeholder="请简单描述您梦想的生活"></textarea><br>
+         <button class="s8_submit" type="submit" >提交申请</button>
+
+    </form>
+</div>
+   </div>
+</section>
+<section id="section9">
+    <h2>联系我们</h2>
+    <p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯也可以通过以下任何方式关注我们的动态</p>
+    <div id="s9_input">
+        <form action="" method="post">
+    <input type="text"  placeholder="someone@email.com"><button type="submit" >提&nbsp;交</button></form>
+    </div>
+    <ul>
+        <li><img id="s9_img1" src="image/imageTask1_7/QQ1.png"></li>
+        <li><img id="s9_img2" src="image/imageTask1_7/weibo1.png"></li>
+        <li><img id="s9_img3" src="image/imageTask1_7/twitter1.png"></li>
+        <li><img id="s9_img4" src="image/imageTask1_7/wiki1.png"></li>
+    </ul>
+    <div id="bottom">
+        <span>@2016新世界</span>
+        <a href="#">Back to top</a>
+    </div>
+</section>
+</body>
+</html>
