@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task1_10</title>
+    <style type="text/css">
+        body,div,ul{padding:0px;margin:0px;}
+        .all{width:100%}
+        .container{border: solid 1px #aaa;padding:20px;display:flex;justify-content:space-between;flex-direction: row;margin:10px;align-items:center;width:80%;flex-wrap: wrap}
+        .box{min-width:150px;border: solid 1px #f00;margin-top:10px;}
+        .box1{height:120px;order:1;}
+        .box2{height:100px;order:2;}
+        .box3{height:40px;order:3;}
+        .box4{width:150px;height:200px;border: solid 1px #00f;order:4;}
+
+        /* 媒体查询  */
+       @media screen and (max-width:640px){
+        .box4{order:0}
+        .box{background:#red;}
+        .container{}
+        }
+        @media screen and (max-width:380px){
+        .container{width:150px;}
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="all">
+<div class="container">
+
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+
+</div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+</html>
